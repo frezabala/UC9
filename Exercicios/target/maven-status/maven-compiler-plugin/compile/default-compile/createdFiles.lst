@@ -1,0 +1,4 @@
+com\mycompany\cosa\AtualizarUsuario.class
+com\mycompany\cosa\CriarTabela.class
+com\mycompany\cosa\Cosa.class
+com\mycompany\cosa\conexaoSQLite.class
