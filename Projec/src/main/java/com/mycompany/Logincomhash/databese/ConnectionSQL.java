@@ -15,15 +15,15 @@ import java.sql.Statement;
  * @author FRELIANNYSISMELIALOP
  */
 public class ConnectionSQL {
-    // Carrega as variáveis do arquivo .env
-    private static final Dotenv dotenv = Dotenv.load();
-
+    // Carrega as variáveis do arquivo 
+     private static final Dotenv dotenv = Dotenv.load();
+   
     private static Connection connection;
 
     // Variáveis de conexão
-    private static final String URL = dotenv.get("DB_URL");
-    private static final String DB_USER = dotenv.get("DB_USER");
-    private static final String DB_PASSWORD = dotenv.get("DB_PASSWORD");
+    private static final String URL = dotenv.get("jdbc:mysql://localhost:3306/meu_banco");
+    private static final String DB_USER = dotenv.get("root");
+    private static final String DB_PASSWORD = dotenv.get("root");
 
     // Conecta ao banco de dados
     public static Connection conectar() {
