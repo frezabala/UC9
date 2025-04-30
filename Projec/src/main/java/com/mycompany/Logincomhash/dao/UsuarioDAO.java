@@ -107,7 +107,7 @@ public class UsuarioDAO {
            
             ResultSet rs = stmt.executeQuery();
             while (rs.next()) {
-                Usuario usuario = new Usuario(rs.getString("id") ,rs.getString("uuarios"));
+                Usuario usuario = new Usuario(rs.getString("id") ,rs.getString("usuarios"));
                 usuarios.add(usuario);
             }
         } catch (SQLException e) {
