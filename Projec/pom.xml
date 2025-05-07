@@ -31,4 +31,5 @@
       <type>jar</type>
     </dependency>
 </dependencies>
+    <name>ProjecComHash</name>
 </project>

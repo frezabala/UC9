@@ -15,13 +15,13 @@ import java.sql.Connection;
 public class LoginComHash {
 
     public static void main(String[] args) {
-        //Connect connect = new Connect();
+       // Connect connect = new Connect();
        // Connect.conectar();
        
     
        
        new Telalogin().setVisible(true);
-       new telaListar().setVisible(true);
+    
        
 
     }

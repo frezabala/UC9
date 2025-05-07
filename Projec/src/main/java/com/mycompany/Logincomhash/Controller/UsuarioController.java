@@ -32,9 +32,7 @@ public class UsuarioController {
         
         if(usuarioDAO.validarLogin(usuario)){
         return usuario;
-        
-        
-        
+
         }else{
         return null;
         

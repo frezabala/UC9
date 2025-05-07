@@ -13,12 +13,13 @@ import javax.swing.JOptionPane;
  * @author FRELIANNYSISMELIALOP
  */
 public class Telalogin extends javax.swing.JFrame {
-
+   
     /**
      * Creates new form Telalogin
      */
     public Telalogin() {
         initComponents();
+           new telaListar().setVisible(true);
     }
 
     /**

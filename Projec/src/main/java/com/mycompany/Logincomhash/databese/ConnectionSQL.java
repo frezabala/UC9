@@ -21,9 +21,9 @@ public class ConnectionSQL {
     private static Connection connection;
 
     // Variáveis de conexão
-    private static final String URL = dotenv.get("jdbc:mysql://localhost:3306/meu_banco");
-    private static final String DB_USER = dotenv.get("root");
-    private static final String DB_PASSWORD = dotenv.get("root");
+    private static final String URL = dotenv.get("DB_URL");
+    private static final String DB_USER = dotenv.get("DB_USER");
+    private static final String DB_PASSWORD = dotenv.get("DB_PASSWORD");
 
     // Conecta ao banco de dados
     public static Connection conectar() {
