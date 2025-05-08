@@ -9,5 +9,29 @@ package com.mycompany.projectApi.model;
  * @author FRELIANNYSISMELIALOP
  */
 public class Piadas {
+   private String descricao;
+   private String categoria;
+
+    public Piadas(String descricao, String categoria) {
+        this.descricao = descricao;
+        this.categoria = categoria;
+    }
+
+    public String getDescricao() {
+        return descricao;
+    }
+
+    public String getCategoria() {
+        return categoria;
+    }
+
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
+    }
+
+    public void setCategoria(String categoria) {
+        this.categoria = categoria;
+    }
+   
     
 }

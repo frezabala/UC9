@@ -1,0 +1,38 @@
+body{
+ background-color: black;
+ color: aliceblue;
+
+}
+button{
+padding: 15px;
+margin: 5px;
+border-radius: 10px;
+background-color: brown;
+color: aliceblue;
+border: nome;
+}
+button:hover{
+    background-color: brown rgb(245, 43, 83);
+}
+
+btnVerde{
+    background-color: brown rgb(49, 206, 114);
+}
+.textoMarron{
+    font-size: 15px;
+    color: rgb(217, 79, 55);
+}
+
+.conternerPrincipal{
+   background-image: url(https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExOW9sbnZrejNoMHJ5ZWR4cTQ0Y3V5bjk4czBmdTF0MmhvNWRub2s1OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tHIRLHtNwxpjIFqPdV/giphy.gif);
+   background-size: contain;
+   background-repeat: no-repeat; 
+    background-position-x: center;
+    height: 300px;
+    display: flex; /**/
+    flex-direction: column;/*alinha os item em coluna*/
+    justify-content: center;/*alinha os item en a vertical*/
+    align-items: center;/*alinha os item na horizontal*/
+
+}
+

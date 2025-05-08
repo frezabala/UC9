@@ -1,0 +1,8 @@
+com\mycompany\cepcomapi\model\Endereco.class
+com\mycompany\cepcomapi\view\CadastroFrom$1.class
+com\mycompany\cepcomapi\view\CadastroFrom.class
+com\mycompany\cepcomapi\Controller\CadastroController.class
+com\mycompany\cepcomapi\view\CadastroFrom$2.class
+com\mycompany\cepcomapi\CepComApi.class
+com\mycompany\cepcomapi\view\CadastroFrom$3.class
+com\mycompany\cepcomapi\Service\ViaCepService.class

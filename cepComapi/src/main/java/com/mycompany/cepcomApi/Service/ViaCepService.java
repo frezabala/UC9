@@ -2,20 +2,20 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.mycompany.projectApi.service;
+package com.mycompany.cepcomApi.Service;
 
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
 import org.json.JSONObject;
 
-
-
 /**
  *
  * @author FRELIANNYSISMELIALOP
  */
-public class PiadaService {  public static JSONObject buscarCep(String cep) throws Exception {
+public class ViaCepService {
+     // Método para buscar dados de endereço pelo CEP
+    public static JSONObject buscarCep(String cep) throws Exception {
         // Cria o cliente HTTP (OkHttpClient)
         OkHttpClient client = new OkHttpClient();
 
@@ -38,8 +38,5 @@ public class PiadaService {  public static JSONObject buscarCep(String cep) thro
             return new JSONObject(jsonData);
         }
     }
-    
-     
-    
     
 }

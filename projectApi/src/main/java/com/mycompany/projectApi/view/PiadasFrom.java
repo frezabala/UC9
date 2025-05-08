@@ -41,6 +41,11 @@ public class PiadasFrom extends javax.swing.JFrame {
         jScrollPane1.setViewportView(piadaResp);
 
         Categoria.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Qualquer", "Programação", "Diversos" }));
+        Categoria.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                CategoriaActionPerformed(evt);
+            }
+        });
 
         btnBuscar.setBackground(new java.awt.Color(153, 204, 255));
         btnBuscar.setText("Buscar");
@@ -86,6 +91,10 @@ public class PiadasFrom extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void CategoriaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CategoriaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_CategoriaActionPerformed
 
     /**
      * @param args the command line arguments

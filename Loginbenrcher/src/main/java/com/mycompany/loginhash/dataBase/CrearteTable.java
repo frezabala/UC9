@@ -2,9 +2,8 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.mycompany.cepcombanco.database;
+package com.mycompany.loginhash.dataBase;
 
-import com.mycompany.cepcombanco.model.User;
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.sql.Statement;
@@ -30,20 +29,5 @@ public class CrearteTable {
 
 }
     
-    } 
-/*
-     public static User verificarUsuario(String email, char[] charPassword){
-       String password = new String(charPassword);
-       User user = new User(email,password);
-       if(usuarioDAO.validarLogin(user) == true){
-       
-           return user;
-       }else{
-       
-       }return null;
-   }*/
+     }   
 }
-
-
-
-
